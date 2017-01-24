@@ -77,3 +77,41 @@ header {
     justify-content: center;
     flex-wrap: wrap;
 }
+.bottom.image {
+  width: 1200px;
+  height: 500px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  margin-left: -90px;
+}
+.location {
+  padding-top: 40px;
+}
+.downtown {
+  width: 300px;
+  height: 300px;
+  background: black;
+  opacity: 1
+  align-items: center;
+}
+.bayside {
+  width: 300px;
+  height: 300px;
+  background: black;
+  opacity: 1
+  align-items: center;
+}
+.oakdale {
+  width: 300px;
+  height: 300px;
+  background: black;
+  opacity: 1
+  align-items: center;
+}
+.last {
+  height: 200px;
+  opacity: 1;
+}
+footer {
+  text-align: left;
+  opacity: 1;
+}
