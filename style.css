@@ -31,3 +31,27 @@ header {
   display: flex;
   height: 50px;
 }
+.container {
+  display: flex;
+  position: relative;
+  top:70px;
+  left: 160px;
+  text-align: center;
+}
+.top.image {
+  margin: 0;
+  width: 1200px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+.mid.image {
+  padding-top: 100px;
+  padding-left: 250px;
+  width: 1000px;
+  text-align: center;
+}
+.TOM {
+  height: 200px;
+  width: 300px;
+  display:inline-grid;
+}
