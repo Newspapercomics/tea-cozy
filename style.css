@@ -16,6 +16,7 @@ nav {
   padding-left: 950px;
   margin: 0 auto;
   float: right;
+  flex-grow: 1;
 }
 header {
   position: fixed;
@@ -24,6 +25,8 @@ header {
   align-items: center;
   width: 100%;
   display: flex;
+  z-index: 1;
+  background-color: black;
 }
 .logo {
   padding-left: 10px;
@@ -44,6 +47,14 @@ header {
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
+
+.mission {
+  background-color: black;
+  align-items: center;
+  margin-top: 350px;
+  width: 100%;
+}
+
 .mid.image {
   padding-top: 100px;
   padding-left: 250px;
@@ -54,4 +65,15 @@ header {
   height: 200px;
   width: 300px;
   display:inline-grid;
+}
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
